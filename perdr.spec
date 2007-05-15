@@ -1,13 +1,12 @@
 Name:           perdr
-Version:        0.0104
+Version:        0.0108
 Release:        %mkrel 1
 Epoch:          0
 Summary:        Windows Portable Executable disassembler
 License:        GPL
 Group:          Development/Other
 URL:            http://perdr.sourceforge.net/
-Source0:        http://prdownloads.sourceforge.net/perdr/perdr-%{version}.tar.bz2
-Patch0:         perdr-0.0104-build.patch
+Source0:        http://prdownloads.sourceforge.net/perdr/perdr-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
@@ -17,7 +16,6 @@ Pentium III and instruction sets.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{configure2_5x}
@@ -34,6 +32,7 @@ Pentium III and instruction sets.
 %defattr(0644,root,root,0755)
 %doc AUTHORS COPYING ChangeLog NEWS README
 %attr(0755,root,root) %{_bindir}/perdr
+%dir %{_datadir}/perdr
+%{_datadir}/perdr/winapifn.lst
 %{_mandir}/man1/*
-
 
