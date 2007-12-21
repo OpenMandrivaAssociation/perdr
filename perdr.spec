@@ -7,6 +7,7 @@ License:        GPL
 Group:          Development/Other
 URL:            http://perdr.sourceforge.net/
 Source0:        http://prdownloads.sourceforge.net/perdr/perdr-%{version}.tar.gz
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 perdr is a disassembler for the Windows Portable Executable format.
