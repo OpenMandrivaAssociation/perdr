@@ -1,9 +1,9 @@
 Name:           perdr
 Version:        0.0108
-Release:        %mkrel 3
+Release:        %mkrel 4
 Epoch:          0
 Summary:        Windows Portable Executable disassembler
-License:        GPL
+License:        GPLv2+
 Group:          Development/Other
 URL:            http://perdr.sourceforge.net/
 Source0:        http://prdownloads.sourceforge.net/perdr/perdr-%{version}.tar.gz
