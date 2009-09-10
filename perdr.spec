@@ -1,6 +1,6 @@
 Name:           perdr
 Version:        0.0108
-Release:        %mkrel 4
+Release:        %mkrel 5
 Epoch:          0
 Summary:        Windows Portable Executable disassembler
 License:        GPLv2+
