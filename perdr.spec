@@ -5,7 +5,7 @@ Epoch:          0
 Summary:        Windows Portable Executable disassembler
 License:        GPLv2+
 Group:          Development/Other
-URL:            http://perdr.sourceforge.net/
+URL:            https://perdr.sourceforge.net/
 Source0:        http://prdownloads.sourceforge.net/perdr/perdr-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
