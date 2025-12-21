@@ -9,6 +9,7 @@ URL:            https://perdr.sourceforge.net/
 Source0:        http://prdownloads.sourceforge.net/perdr/perdr-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
+BuildRequires:	make
 %description
 perdr is a disassembler for the Windows Portable Executable format.
 It reverses module info and code to screen. It supports the full
